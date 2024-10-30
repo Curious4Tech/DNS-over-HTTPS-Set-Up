@@ -93,7 +93,13 @@ These sites will show if DoH is active and confirm that your DNS requests are en
 
 ## Troubleshooting
 
-- **DNS Resolution Issues**: If websites fail to load, double-check your DNS server addresses and ensure that the DNSCrypt-Proxy service is running.
+- **DNS Resolution Issues**: Open your command prompt to run the following command to see your DNS configuuration:
+    ```bash
+  ipconfig /all
+  ```
+    
+    ![image](https://github.com/user-attachments/assets/dbcda722-da2a-4364-a7eb-cd2d30976d5c)
+
 - **Flushing DNS Cache**: Sometimes, clearing the DNS cache can resolve issues. Open Command Prompt and run:
 
   ```bash
