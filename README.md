@@ -1,6 +1,6 @@
 # DNS-over-HTTPS-Set-Up
 
-Here’s a complete README for setting up DNS over HTTPS (DoH) on Windows machines. This guide provides step-by-step instructions for configuring DoH using either Windows 11's built-in DoH settings or alternative third-party tools for older versions of Windows.
+This guide provides step-by-step instructions for configuring DoH using either Windows 11's built-in DoH settings or alternative third-party tools for older versions of Windows.
 
 ---
 
