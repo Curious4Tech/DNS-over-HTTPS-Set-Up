@@ -86,6 +86,10 @@ To verify your DoH configuration, visit any of the following test sites:
 - **Cloudflare**: [https://1.1.1.1/help](https://1.1.1.1/help)
 - **Google**: [https://dns.google/](https://dns.google/)
 - **Quad9** : [https://dns.quad9.net:5053/dns-query?name=quad9.net](https://dns.quad9.net:5053/dns-query?name=quad9.net)
+  For **Quad9** if everything is ok, after visiting [https://dns.quad9.net:5053/dns-query?name=quad9.net](https://dns.quad9.net:5053/dns-query?name=quad9.net) you will get a result like on this screenshoot:
+  
+  ![image](https://github.com/user-attachments/assets/fdb58724-75dc-4f83-9378-98ecc3afa9b8)
+
 
 These sites will show if DoH is active and confirm that your DNS requests are encrypted.
 
