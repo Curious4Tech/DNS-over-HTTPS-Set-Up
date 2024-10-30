@@ -112,6 +112,8 @@ These sites will show if DoH is active and confirm that your DNS requests are en
   ipconfig /flushdns
   ```
 
+![image](https://github.com/user-attachments/assets/77aa7e06-b054-44d4-ba89-fd958a240155)
+
 - **Firewall Settings**: Ensure no firewall is blocking DNSCrypt-Proxy or your DNS queries.
 
 ---
