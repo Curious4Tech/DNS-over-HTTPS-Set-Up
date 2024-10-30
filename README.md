@@ -69,10 +69,10 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
     **Example DoH Servers**:
    - **Quad9**:
      - Prefered DNS: `9.9.9.9`
-     - DNS over HTTPS template: [149.112.112.112](https://dns.quad9.net/dns-query)
+     - DNS over HTTPS template: [https://dns.quad9.net/dns-query](149.112.112.112)
    - **Cloudflare**:
      - Alternate DNS: `1.1.1.1`
-     -  DNS over HTTPS template: [1.0.0.3](https://one.one.one.one/dns-query)
+     -  DNS over HTTPS template: [https://one.one.one.one/dns-query](1.0.0.3)
  
 
      ![image](https://github.com/user-attachments/assets/2d448c71-40a1-4df8-b2b1-ddf2f9bed0ef)
