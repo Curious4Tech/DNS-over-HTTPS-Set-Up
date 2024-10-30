@@ -36,7 +36,16 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
 2. Navigate to **Network & Internet**.
 3. Select **Wi-Fi** (if connected via Wi-Fi) or **Ethernet** (if connected via a wired connection).
 
-### Step 2: Access DNS Settings
+## Step 2: Update DNS Settings
+
+1. Go to Network & Internet settings in Windows.
+2. Under Network & Sharing Center, click on Change adapter settings.
+3. Right-click your active network connection and select Properties.
+4. Select Internet Protocol Version 4 (TCP/IPv4) and click on Properties.
+5. Set the Preferred DNS server to '9.9.9.9' and Secondary: `149.112.112.112`.
+
+
+### Step 3: Access DNS Settings
 
 1. Click on **Hardware properties** under your active network.
 2. Scroll down to the **DNS server assignment** section and click on **Edit**.
@@ -68,49 +77,6 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
 
 ---
 
-## Setting Up DoH on Windows 10 Using Third-Party Tools
-
-Since Windows 10 doesn’t natively support DoH, you’ll need to use a third-party tool. Here’s how to set it up with DNSCrypt-Proxy.
-
-### Step 1: Download DNSCrypt-Proxy
-
-1. Download the latest release of **DNSCrypt-Proxy** from [https://github.com/DNSCrypt/dnscrypt-proxy/releases](https://github.com/DNSCrypt/dnscrypt-proxy/releases).
-2. Extract the downloaded zip file to a desired location.
-
-### Step 2: Configure DNSCrypt-Proxy
-
-1. Open the extracted folder and locate `dnscrypt-proxy.toml`.
-2. Open `dnscrypt-proxy.toml` in a text editor (e.g., Notepad) and find the `server_names` section.
-3. Choose your preferred DoH providers by uncommenting their names (e.g., `cloudflare`, `google`, `quad9-doh`) or add any other supported DoH server.
-
-   ```toml
-   server_names = ['cloudflare', 'google', 'quad9-doh']
-   ```
-
-4. Save and close the file.
-
-### Step 3: Install DNSCrypt-Proxy as a Service
-
-1. Open **Command Prompt** as an administrator.
-2. Navigate to the DNSCrypt-Proxy folder and run:
-
-   ```bash
-   dnscrypt-proxy.exe --install
-   ```
-
-3. Start the DNSCrypt-Proxy service:
-
-   ```bash
-   net start dnscrypt-proxy
-   ```
-
-### Step 4: Update DNS Settings
-
-1. Go to **Network & Internet settings** in Windows.
-2. Under **Network & Sharing Center**, click on **Change adapter settings**.
-3. Right-click your active network connection and select **Properties**.
-4. Select **Internet Protocol Version 4 (TCP/IPv4)** and click on **Properties**.
-5. Set the **Preferred DNS server** to `127.0.0.1` (loopback address).
 
 ### Step 5: Verify Configuration
 
@@ -123,6 +89,7 @@ Since Windows 10 doesn’t natively support DoH, you’ll need to use a third-pa
 To verify your DoH configuration, visit any of the following test sites:
 - **Cloudflare**: [https://1.1.1.1/help](https://1.1.1.1/help)
 - **Google**: [https://dns.google/](https://dns.google/)
+- **Quad9** : [https://dns.quad9.net:5053/dns-query?name=quad9.net]
 
 These sites will show if DoH is active and confirm that your DNS requests are encrypted.
 
