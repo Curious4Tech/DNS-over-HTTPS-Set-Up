@@ -47,6 +47,8 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
 ![image](https://github.com/user-attachments/assets/1f6fd31a-1608-48e1-baa9-ef02a4efe592)
 
 6. Set the **Preferred DNS Server** to `9.9.9.9` and **Alternate DNS Server**: `1.1.1.1`. Then click on **Ok** to save the configuration.
+
+   
 ![image](https://github.com/user-attachments/assets/3612ca05-137e-4394-aeb5-15dc7676372d)
 
 ### Step 3: Access DNS Settings
@@ -58,22 +60,25 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
 
 1. In the **Edit DNS settings** window:
    - Set **DNS settings** to **Manual**.
-   - Toggle **IPv4** or **IPv6** as needed, then enter DoH server addresses (e.g., Cloudflare, Google, Quad9).
-   
-   **Example DoH Servers**:
-   - **Cloudflare**:
-     - Primary: `1.1.1.1`
-     - Secondary: `1.0.0.3`
-   - **Google**:
-     - Primary: `8.8.8.8`
-     - Secondary: `8.8.4.4`
-   - **Quad9**:
-     - Primary: `9.9.9.9`
-     - Secondary: `149.112.112.112`
 
+     ![image](https://github.com/user-attachments/assets/5136aa35-36ea-4e0b-89d1-7ae299360c6d)
+
+   - Toggle **IPv4** or **IPv6** as needed, then enter DoH server addresses (e.g., Cloudflare, Google, Quad9).
 2. Under **Preferred DNS encryption**, select **Encrypted only (DNS over HTTPS)** for each DNS server.
 
-3. Click **Save** to apply the settings.
+    **Example DoH Servers**:
+   - **Quad9**:
+     - Prefered DNS: `9.9.9.9`
+     - DNS over HTTPS template: `[149.112.112.112](https://dns.quad9.net/dns-query)`
+   - **Cloudflare**:
+     - Alternate DNS: `1.1.1.1`
+     -  DNS over HTTPS template: `[1.0.0.3](https://one.one.one.one/dns-query)`
+ 
+
+     ![image](https://github.com/user-attachments/assets/2d448c71-40a1-4df8-b2b1-ddf2f9bed0ef)
+
+
+4. Click **Save** to apply the settings.
 
 ## Testing DoH Setup
 
