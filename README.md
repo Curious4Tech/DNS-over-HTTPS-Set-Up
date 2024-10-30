@@ -103,7 +103,7 @@ These sites will show if DoH is active and confirm that your DNS requests are en
   ipconfig /all
   ```
     
-    ![image](https://github.com/user-attachments/assets/dbcda722-da2a-4364-a7eb-cd2d30976d5c)
+   ![image](https://github.com/user-attachments/assets/6afd7a98-b3b6-4838-b83d-9cac42001893)
 
 - **Flushing DNS Cache**: Sometimes, clearing the DNS cache can resolve issues. Open Command Prompt and run:
 
