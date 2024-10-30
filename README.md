@@ -39,9 +39,11 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
 1. Go to **Network & Internet** settings in Windows.
 2. Right-click your active network connection and select **Properties**.
 3. Click on **edit** on **More adapter options**
-![image](https://github.com/user-attachments/assets/dee13bbd-fb74-49a3-a5aa-c24f2ca8aa04)
 
-4. Select Internet **Protocol Version 4 (TCP/IPv4)** and click on **Properties**.
+![image](https://github.com/user-attachments/assets/23ee3621-e013-4ae8-90ae-a5caab13b0de)
+
+
+5. Select Internet **Protocol Version 4 (TCP/IPv4)** and click on **Properties**.
 
    
 ![image](https://github.com/user-attachments/assets/1f6fd31a-1608-48e1-baa9-ef02a4efe592)
