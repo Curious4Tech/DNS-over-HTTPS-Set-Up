@@ -53,17 +53,14 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
    
 ![image](https://github.com/user-attachments/assets/3612ca05-137e-4394-aeb5-15dc7676372d)
 
-### Step 3: Access DNS Settings
-
-1. Click on **Hardware properties** under your active network.
-2. Scroll down to the **DNS server assignment** section and click on **Edit**.
-
 ### Step 3: Configure DoH Servers
 
 1. In the **Edit DNS settings** window:
    - Set **DNS settings** to **Manual**.
 
-     ![image](https://github.com/user-attachments/assets/5136aa35-36ea-4e0b-89d1-7ae299360c6d)
+ 
+   ![image](https://github.com/user-attachments/assets/f45d83e6-f22f-4a1e-b8c4-c8a069ff4aa2)
+
 
    - Toggle **IPv4** or **IPv6** as needed, then enter DoH server addresses (e.g., Cloudflare, Google, Quad9).
 2. Under **Preferred DNS encryption**, select **Encrypted only (DNS over HTTPS)** for each DNS server.
