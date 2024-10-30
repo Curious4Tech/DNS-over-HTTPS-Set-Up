@@ -114,13 +114,12 @@ These sites will show if DoH is active and confirm that your DNS requests are en
 
 ![image](https://github.com/user-attachments/assets/77aa7e06-b054-44d4-ba89-fd958a240155)
 
-- **Firewall Settings**: Ensure no firewall is blocking DNSCrypt-Proxy or your DNS queries.
 
 ---
 
 ## Resources
 
-- [DNSCrypt-Proxy GitHub Repository](https://github.com/DNSCrypt/dnscrypt-proxy)
+- [Quad9 DoH Documentation](https://docs.quad9.net/)
 - [Cloudflare DoH Setup Guide](https://developers.cloudflare.com/1.1.1.1/dns-over-https/)
 - [Google DoH Documentation](https://developers.google.com/speed/public-dns/docs/dns-over-https)
 
