@@ -37,11 +37,15 @@ DNS over HTTPS (DoH) enhances privacy and security by encrypting DNS queries thr
 ## Step 2: Update DNS Settings
 
 1. Go to **Network & Internet** settings in Windows.
-2. Under **Network & Sharing Center**, click on **Change adapter settings**.
-3. Right-click your active network connection and select **Properties**.
-4. Select Internet **Protocol Version 4 (TCP/IPv4)** and click on Properties.
-5. Set the Preferred DNS server to `9.9.9.9` and Secondary: `149.112.112.112`.
+2. Right-click your active network connection and select **Properties**.
+3. Click on **edit** on **More adapter options**
+![image](https://github.com/user-attachments/assets/dee13bbd-fb74-49a3-a5aa-c24f2ca8aa04)
 
+4. Select Internet **Protocol Version 4 (TCP/IPv4)** and click on **Properties**.
+![image](https://github.com/user-attachments/assets/1f6fd31a-1608-48e1-baa9-ef02a4efe592)
+
+5. Set the **Preferred DNS Server** to `9.9.9.9` and **Alternate DNS Server**: `1.1.1.1`. Then click on **Ok** to save the configuration.
+![image](https://github.com/user-attachments/assets/3612ca05-137e-4394-aeb5-15dc7676372d)
 
 ### Step 3: Access DNS Settings
 
